@@ -1,4 +1,4 @@
-/*
+'''
 1- Search for the given query using the standard Trie search algorithm.
 
 2- If the query prefix itself is not present, return -1 to indicate the same.
@@ -9,7 +9,7 @@
 
 5- Else recursively print all nodes under a subtree of last matching node.
 
-*/
+'''
 
 
 class TrieNode:
@@ -108,7 +108,7 @@ if comp == -1:
 elif comp == 0:
     print("No string found with this prefix\n")
     
-/*
+'''
 Output:
 hel
 hell
@@ -117,4 +117,4 @@ help
 helps
 helping
 
-*/
+'''
