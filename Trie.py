@@ -1,3 +1,17 @@
+/*
+1- Search for the given query using the standard Trie search algorithm.
+
+2- If the query prefix itself is not present, return -1 to indicate the same.
+
+3- If the query is present and is the end of a word in Trie, print query. This can quickly be checked by seeing if the last matching node has isEndWord flag set. We use this flag in Trie to mark the end of word nodes for purpose of searching.
+
+4- If the last matching node of the query has no children, return.
+
+5- Else recursively print all nodes under a subtree of last matching node.
+
+*/
+
+
 class TrieNode:
     def __init__(self):
         self.children = {}
